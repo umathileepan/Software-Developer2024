@@ -2,9 +2,36 @@
 <html lang="en">
     <head>
         <title>ECMA Script</title>
+        <style>
+            #box{
+                display: flex;
+                justify-content: space-around;
+                margin:0;
+                padding:0;
+            }
+            #box > div{
+                height: 5em;
+                width: 5em;
+                background-color: purple;
+            }
+            #instruct {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-around;
+                
+            }
+
+                #instruct > button {
+                    height: 2em;
+                    width: 4em;
+                    background-color: forestgreen;
+                }
+        </style>
     </head>
     <body>
         <h1>Let Vs Var</h1>
+        <div id="box"></div>
+        <button id="instruct"></button>
 
         <script type="text/javascript">
             var topic = "Java Script";
@@ -21,6 +48,28 @@
 
             console.log("global var", topic);
             console.log("global let", firstname);
+
+            var div;
+            var box = document.getElementById("box");
+           
+            for (let i = 0; i < 5; i++) {
+                div = document.createElement("div");
+                div.onclick = function () {
+                    alert("This is box #" + i);
+                };
+                box.appendChild(div);
+            }
+
+            var button;
+            var instruct = document.getElementById("instruct");
+
+            for (let x = 5; x > 0; x--) {
+                button = document.createElement("button");
+                button.onclick = function () {
+                    alert("I am no #" + x);
+                };
+                instruct.appendChild(button);
+            }
         </script>
     </body>
 </html>
