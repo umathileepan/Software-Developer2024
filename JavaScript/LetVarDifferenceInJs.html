@@ -1,0 +1,26 @@
+<! DOCTYPE>
+<html lang="en">
+    <head>
+        <title>ECMA Script</title>
+    </head>
+    <body>
+        <h1>Let Vs Var</h1>
+
+        <script type="text/javascript">
+            var topic = "Java Script";
+            let firstname = "Uma";
+
+            if (topic) {
+                var topic = "ECMA script";
+                console.log("block var", topic);
+            }
+            if (firstname) {
+                let name = "Astro";
+                console.log("block let", name);
+            }
+
+            console.log("global var", topic);
+            console.log("global let", firstname);
+        </script>
+    </body>
+</html>
