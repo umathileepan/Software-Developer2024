@@ -7,3 +7,30 @@
     display: flex;
     justify-items: center;
 }
+
+.black{
+    width: 500px;
+    height:500px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-items: flex-end;
+}
+.blue{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.yellow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+}
