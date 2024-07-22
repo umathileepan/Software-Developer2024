@@ -27,8 +27,30 @@ h1{
 .container{
     margin: 20px auto 20px auto;
     background-color: whitesmoke;
-    border-radius: 2px solid blue;
     width: 400px;
     height:120px;
+    padding: 5px auto;
+    border: 2px solid blue;
+    border-radius: 20px;
     align-items: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: blue;
+}
+
+.explanation{
+    margin: 20px auto 20px auto;
+    background-color: rgb(13, 74, 13);
+    color: whitesmoke;
+    width: 400px;
+    height:150px;
+    border: 0px solid green;
+    border-radius: 20px;
+    text-align: justify;
+    align-content: center;
+}
+#explanation-message{
+    text-align: center;
+    font-size: 24px;
 }
