@@ -9,7 +9,7 @@ function checkResult() {
         {
             alert("Please input a value");
         }else if(textInput.trim() === 'A' 
-        || textInput.trim() === 'eye' 
+        ||textInput.trim() === 'eye' 
         ||textInput.trim() === '_eye' 
         ||textInput.trim() === 'race car'
         ||textInput.trim() === 'A man, a plan, a canal. Panama'
@@ -19,7 +19,7 @@ function checkResult() {
         ||textInput.trim() === reverseTextResult){
             varResult.innerText = `${textInput} is a palindrome`;
         }else if(textInput.trim() === 'not a palindrome' 
-        || textInput.trim() === 'nope' 
+        ||textInput.trim() === 'nope' 
         ||textInput.trim() === 'almostomla' 
         ||textInput.trim() === '1 eye for of 1 eye.'
         ||textInput.trim() === 'five|\_/|four'
