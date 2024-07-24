@@ -40,8 +40,8 @@ h1{
     padding-top: 30px;
     
 }
-#label-text{
-    padding: 60px;
+#label-text, .result_display{
+    padding: 10px 10px 10px 60px;
     letter-spacing: 0.3px;
     font-size: 18px;
 }
@@ -84,4 +84,11 @@ h1{
     font-size: 14px;
     width: 120px;
     padding: 15px;
+}
+
+#check-btn:hover{
+    cursor: pointer;
+}
+.result_display{
+    padding-top: 1px;
 }
