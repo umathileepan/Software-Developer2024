@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let character = '#';
+        let count = 8;
+        let rows = [];
+        for(let i=0;i<count;i++){
+            rows.push(character.repeat(i));
+        }
+        let result = '';
+        for(const row of rows){
+            result = result + row + '\n';
+        }
+        console.log(result);
+    </script>
+</body>
+</html>
